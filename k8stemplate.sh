@@ -10,9 +10,7 @@ fi
 set -v
 
 
-# install latest packages and securit updates
-sudo hostnamectl set-hostname "k8s-template-00.vgary.com"
-exec bash
+# install latest packages
 sudo apt update
 
 # basic OS packages
